@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@media (max-width: 1024px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  header {
+    background-color: blue;
+  }
+
+  body {
+    background-image: linear-gradient(to right, green, greenyellow);
+  }
+
+  h1 {
+    color: black;
+    font-family: "Merriweather", serif;
+  }
+
+  img {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  iframe {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .footerfondo {
+    background-color: blueviolet;
+  }
+
+  .imagenfooter {
+    width: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  body {
+    background-image: linear-gradient(to right, green, greenyellow);
+  }
+
+  header {
+    display: flex;
+    background-color: blue;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .transform:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 2s;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 70px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 70px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+  }
+
+  h1 {
+    color: black;
+    font-family: "Merriweather", serif;
+  }
+
+  img {
+    margin-top: 0px;
+  }
+
+  iframe {
+    margin-top: 10px;
+  }
+
+  .footerfondo {
+    background-color: blueviolet;
+  }
+
+  .imagenfooter {
+    width: 100px;
+  }
+
+  .seccionimagenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .seccionimagenes img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+  }
+
+  .ubicacion {
+    text-align: center;
+  }
+}/*# sourceMappingURL=estilos.css.map */
