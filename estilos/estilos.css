@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
-@media (max-width: 1024px) {
-  * {
-    padding: 0%;
-    margin: 0%;
-  }
+* {
+  padding: 0%;
+  margin: 0%;
+}
 
+@media (max-width: 1024px) {
   header {
     background-color: blue;
   }
@@ -37,11 +37,6 @@
   }
 }
 @media (min-width: 1024px) {
-  * {
-    padding: 0%;
-    margin: 0%;
-  }
-
   body {
     background-image: linear-gradient(to right, green, greenyellow);
   }
