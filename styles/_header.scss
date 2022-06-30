@@ -1,0 +1,17 @@
+header {
+    background-color: blue;
+        display: flex;
+        padding: 10px;
+        align-items: flex-start;
+        justify-content: space-between;
+        nav ul {
+            display: flex;
+            gap: 70px;
+        }
+            li {
+            list-style-type: none;
+                a {
+                text-decoration: none;
+            }
+        }
+}
