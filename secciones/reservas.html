@@ -58,24 +58,31 @@
 
 
         </main>
-        
 
 
-        <form>
-            <label for="nombre_apellido">Ingrese nombre y apellido</label>
-            <input type="text" name="nombre_apellido">
+        <div class="mb-3">
+            <h2>
+                ¿Quieres realizar una reserva?
+            </h2>
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ingresar comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Detallar fecha y para cuantas personas desea realizar la reserva. Se le enviará email con presupuesto y confirmación"></textarea>
+            …..
+            <button type="submit" class="btn btn-default border border-primary">
+                Enviar
+           </button>
+          </div>
 
-            <input type="submit" value="Enviar formulario">
-            <input type="reset" value="Limpiar formulario">
-            <input type="button" value="Sin acciones"> <br>
 
-            <label for="Comentario">Ingresar comentario</label>
-            <textarea type="text" name="Comentario" ></textarea>
-        </form>
 <br>
 <br>
         <div class="container-fluid">
-            <h2>¿Sos socio Mikasa?</h2>
+            <h2>
+                ¿Sos socio Mikasa?
+            </h2>
             <p>Sé socio Mikasa y suscribite a nuestras novedades, ofertas y más.</p>
              <form action="#">
                <div class="form-group">
@@ -85,7 +92,7 @@
                  <input type="password" class="form-control" id="password" placeholder="Crear contraseña" name="password">
                </div>
                       …..
-               <button type="submit" class="btn btn-default">
+               <button type="submit" class="btn btn-default border border-primary">
                            Crear cuenta
                       </button>
              </form>
